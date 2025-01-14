@@ -1,11 +1,19 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <div className="container">
+        <header className="App-header"></header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          This project was coded by Anne Gleichmann is open-sourced on GitHub
+          and hosted on Netlify
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
