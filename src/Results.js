@@ -2,10 +2,11 @@ import Reacht from "react";
 import Meaning from "./Meaning";
 
 export default function Result(props) {
-  if (props.definition) {
+  if (props.result) {
     return (
       <div className="Result">
-        {props.definition.meanings.map(function (meaning, index) {
+        <h2>{props.result.word}‚</h2>
+        {props.result.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
               <Meaning meaning={meaning} />
