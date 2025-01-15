@@ -1,4 +1,4 @@
-import Reacht from "react";
+import React from "react";
 import Meaning from "./Meaning";
 
 export default function Result(props) {
