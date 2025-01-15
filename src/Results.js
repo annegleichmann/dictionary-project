@@ -1,15 +1,16 @@
 import Reacht from "react";
 import Meaning from "./Meaning";
 
-export default function Results(props) {
-  if (props.result) {
+export default function Result(props) {
+  if (props.definition) {
     return (
-      <div className="Results">
-        <section className="section">
-          <h2>{props.result.word}</h2>
-        </section>
-        {props.result.meanings.map(function (meaning, index) {
-          return <Meaning meaning={meaning} key={index} />;
+      <div className="Result">
+        {props.definition.meanings.map(function (meaning, index) {
+          return (
+            <section key={index}>
+              <Meaning meaning={meaning} />
+            </section>
+          );
         })}
       </div>
     );
