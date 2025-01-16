@@ -11,13 +11,18 @@ export default function App() {
         </main>
         <footer className="App-footer">
           This project was coded by{" "}
-          <a href="https://github.com/annegleichmann" target="_blank">
+          <a
+            href="https://github.com/annegleichmann"
+            target="_blank"
+            rel="noreferrer"
+          >
             Anne Gleichmann
           </a>{" "}
           is open-sourced on{" "}
           <a
             href="https://github.com/annegleichmann/dictionary-project"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>{" "}
@@ -25,6 +30,7 @@ export default function App() {
           <a
             href="https://shecodes-dictionary-project-by-anne.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Netlify
           </a>
