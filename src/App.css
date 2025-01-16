@@ -1,8 +1,23 @@
+body {
+  background-color: #05377b;
+  color: black;
+}
+
 .App-header {
+  color: white;
+  text-align: center;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 1.5;
   margin: 30px 0;
 }
 
 .App-footer {
+  color: white;
   text-align: center;
   margin: 30px 0;
+}
+
+.App a {
+  color: white;
 }
